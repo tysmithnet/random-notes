@@ -3,7 +3,7 @@ Open standard for **authentication** allowing a user to access multiple web appl
 ## Id
 20220221130013
 ## Tags
-#authentication #auth #security
+#authentication #auth #security #saml
 ## Quick facts
 - XML based
 - used to pass information between an identity provider (idp) and a service provider (sp) like a web app
