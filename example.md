@@ -1,12 +1,17 @@
 # Page Title
-Short and **succinct** description of the content that uses *text adornments* to add emphasis
-## Id
 20220221130048
-## Tags
-Tags go here one after another with a single space between. I'm not putting an example here because I don't want to pollute the tag namespace.
+
+tags would go here
+
+Short and **succinct** description of the content that uses *text adornments* to add emphasis
+
+## Quick facts
+- many pages have a few bullet points of easy to consume information
+
 ## Top level section
 - can start with bullets
-- there is no empty line between sections
+- there should be one empty line where <br /> should appear
+
 ### Nested section
 - bullets shouldn't be complete sentences and should only use caps for proper nouns
 - should use **bold** and *italics* when necessary

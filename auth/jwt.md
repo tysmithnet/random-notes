@@ -1,10 +1,11 @@
 # JSON Web Token
-Method for representing **claims** securely between two parties
-## Id
 20220221134027
-## Tags
+
 #security #jwt #web #authentication #auth #authorization
-## Basic information
+
+Method for representing **claims** securely between two parties
+
+## Quick facts
 - open standard
     - RFC 7519
 - compact, self-contained
@@ -12,22 +13,28 @@ Method for representing **claims** securely between two parties
     - could be HMAC or pub/priv key
         - pub/priv method allows the sender to be guaranteed
     - allows unencrypted JWTs to be verified
+
 ## Uses
+
 ### Authorization
 - user is authenticated and given a token
 - future calls will use the token
 - SSO uses JWT
 - auth can be stateless (no session management) if the token contains all relevant information
+
 ### Information exchange
 - securely transmit information between services
 - pub/priv key
 - signature verifies content hasn't changed
+
 ## Structure
 - 3 parts separated by dots `xxxxx.yyyyy.zzzzz`
+
 ### Header
 - how should signature be computed?
     - contains token type which is JWT
     - contains signing algorithm
+
 ### Payload
 - contains claims
 - claims are information about the bearer
@@ -46,9 +53,11 @@ Method for representing **claims** securely between two parties
         - typically taken from the [jwt claim registry](https://www.iana.org/assignments/jwt/jwt.xhtml)
     - private
         - known to developers and those the developers want to tell
+
 ### Signature
 - take the encoded header, encoded payload, and secret and concat them
 - HMACSHA256 the whole thing
+
 ## Example
 - user logs in somehow
 - app gives the user JWT
