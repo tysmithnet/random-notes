@@ -1,9 +1,9 @@
 # Oauth2
 An **authorization** framework not an *authentication* framework
-
+## Id
+20220221125949
 ## Tags
 #oauth2 #authorization #authentication #auth #security
-
 ## Roles
 ### User
 - person who is granting access to so some subset of their resource data/services
