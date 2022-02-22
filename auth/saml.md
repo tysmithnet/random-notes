@@ -5,7 +5,7 @@ Open standard for **authentication** allowing a user to access multiple web appl
 
 #authentication #auth #security #saml
 
-## Quick facts
+## Summary
 - XML based
 - used to pass information between an identity provider (idp) and a service provider (sp) like a web app
 - widely used in corporations

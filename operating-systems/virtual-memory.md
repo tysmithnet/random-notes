@@ -5,7 +5,7 @@
 
 Memory management technique that presents alternate memory addresses to executing processes that map to addresses in physical memory
 
-## Quick facts
+## Summary
 - cpu must support virtual memory by having a memory management unit (mmu)
     - operating system can configure the mmu to map some page of virtual memory to some page of physical memory
 - allows process to use more memory than physically available

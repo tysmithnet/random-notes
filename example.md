@@ -5,7 +5,7 @@ tags would go here
 
 Short and **succinct** description of the content that uses *text adornments* to add emphasis
 
-## Quick facts
+## Summary
 - many pages have a few bullet points of easy to consume information
 
 ## Top level section

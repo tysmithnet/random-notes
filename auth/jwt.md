@@ -5,7 +5,7 @@
 
 Method for representing **claims** securely between two parties
 
-## Quick facts
+## Summary
 - open standard
     - RFC 7519
 - compact, self-contained

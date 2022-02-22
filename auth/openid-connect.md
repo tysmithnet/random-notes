@@ -5,7 +5,7 @@
 
 **Authentication protocol** built on top of [Oauth2]([[20220221125949]] oauth2) allowing clients to verify **identity** of the user and **get information about the user**
 
-## Quick facts
+## Summary
 - Uses REST/JSON message flows
     - Makes it good for mobile applications because no need to have browser based interaction (cookies etc)
 - Easy for developers to use compared to other authentication protocols
